@@ -3,6 +3,14 @@
     <img src="https://video.photoeditorsdk.com/assets/img/vesdk-logo-s.svg" alt="VideoEditor SDK Logo"/>
   </a>
 </p>
+<p align="center">
+  <a href="https://npmjs.org/package/react-native-videoeditorsdk">
+    <img src="https://img.shields.io/npm/v/react-native-videoeditorsdk.svg" alt="NPM version">
+  </a>
+  <a href="http://twitter.com/VideoEditorSDK">
+    <img src="https://img.shields.io/badge/twitter-@VideoEditorSDK-blue.svg?style=flat" alt="Twitter">
+  </a>
+</p>
 
 # VideoEditor SDK React Native Example App
 This project shows how to easily integrate [VideoEditor SDK](https://www.videoeditorsdk.com/?utm_campaign=Projects&utm_source=Github&utm_medium=VESDK&utm_content=React-Native-Demo) into a React Native application with the [React Native module for VideoEditor SDK](https://github.com/imgly/vesdk-react-native) which is available via NPM as [`react-native-videoeditorsdk`](https://www.npmjs.com/package/react-native-videoeditorsdk).
