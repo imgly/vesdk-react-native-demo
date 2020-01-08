@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* VESDKExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* VESDKExampleTests.m */; };
-		0C65C20F62432573FAC53908 /* libPods-VESDKExample-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F11FF052729F29BEE94BACE /* libPods-VESDKExample-tvOS.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -16,10 +15,11 @@
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2D747A4678F0219FD558A454 /* libPods-VESDKExample-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B6263272D122150AB996D49 /* libPods-VESDKExample-tvOSTests.a */; };
 		2DCD954D1E0B4F2C00145EB5 /* VESDKExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* VESDKExampleTests.m */; };
-		40B0EAACFCA7DF1672FCEC82 /* libPods-VESDKExample-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC74A69D50832A451A61C593 /* libPods-VESDKExample-tvOSTests.a */; };
-		B7459CCF5CA5DA2AD2D49AFE /* libPods-VESDKExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 77597882223AECC99BA0C84D /* libPods-VESDKExampleTests.a */; };
-		F2183726C52EE38B37DEF680 /* libPods-VESDKExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86AFADC4C5AF4504BD962BE1 /* libPods-VESDKExample.a */; };
+		3FFF0F8B70A5B3362DB56222 /* libPods-VESDKExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA42C9A0ECB9D773561DC719 /* libPods-VESDKExampleTests.a */; };
+		6C82EA3423896CAA60372C81 /* libPods-VESDKExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 894526CAD04082195293D3A9 /* libPods-VESDKExample.a */; };
+		F5FC21ABF8649F2FBA972039 /* libPods-VESDKExample-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E80BF5B2C5BA3D009128A3D /* libPods-VESDKExample-tvOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,9 +44,6 @@
 		00E356EE1AD99517003FC87E /* VESDKExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VESDKExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* VESDKExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VESDKExampleTests.m; sourceTree = "<group>"; };
-		091ABE477CB4318C235A39A0 /* Pods-VESDKExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VESDKExample.debug.xcconfig"; path = "Target Support Files/Pods-VESDKExample/Pods-VESDKExample.debug.xcconfig"; sourceTree = "<group>"; };
-		0B8EEAE24C981745CA649187 /* Pods-VESDKExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VESDKExample.release.xcconfig"; path = "Target Support Files/Pods-VESDKExample/Pods-VESDKExample.release.xcconfig"; sourceTree = "<group>"; };
-		0CDF5253EB4388E8A69A8BCB /* Pods-VESDKExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VESDKExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-VESDKExampleTests/Pods-VESDKExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* VESDKExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VESDKExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = VESDKExample/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = VESDKExample/AppDelegate.m; sourceTree = "<group>"; };
@@ -54,17 +51,20 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = VESDKExample/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = VESDKExample/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = VESDKExample/main.m; sourceTree = "<group>"; };
-		140E3C715152C42C72C54524 /* Pods-VESDKExample-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VESDKExample-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-VESDKExample-tvOSTests/Pods-VESDKExample-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		195FDE1174F0020218A8D4C6 /* Pods-VESDKExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VESDKExampleTests.release.xcconfig"; path = "Target Support Files/Pods-VESDKExampleTests/Pods-VESDKExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		1839F3206E8D30FBB0629F7C /* Pods-VESDKExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VESDKExampleTests.release.xcconfig"; path = "Target Support Files/Pods-VESDKExampleTests/Pods-VESDKExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		1E80BF5B2C5BA3D009128A3D /* libPods-VESDKExample-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VESDKExample-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2766D0FCD1A52FA3B91CA9F7 /* Pods-VESDKExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VESDKExample.release.xcconfig"; path = "Target Support Files/Pods-VESDKExample/Pods-VESDKExample.release.xcconfig"; sourceTree = "<group>"; };
+		2B6263272D122150AB996D49 /* libPods-VESDKExample-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VESDKExample-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E47B1E0B4A5D006451C7 /* VESDKExample-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VESDKExample-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* VESDKExample-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VESDKExample-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		77597882223AECC99BA0C84D /* libPods-VESDKExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VESDKExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		86AFADC4C5AF4504BD962BE1 /* libPods-VESDKExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VESDKExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F11FF052729F29BEE94BACE /* libPods-VESDKExample-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VESDKExample-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9E3B22425CD63712AAFDBB45 /* Pods-VESDKExample-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VESDKExample-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-VESDKExample-tvOS/Pods-VESDKExample-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		A56EA41940DC3EFAE408F915 /* Pods-VESDKExample-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VESDKExample-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-VESDKExample-tvOSTests/Pods-VESDKExample-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		E0EE854E5A95AE8DF31254C2 /* Pods-VESDKExample-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VESDKExample-tvOS.release.xcconfig"; path = "Target Support Files/Pods-VESDKExample-tvOS/Pods-VESDKExample-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		EC74A69D50832A451A61C593 /* libPods-VESDKExample-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VESDKExample-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4532935D54FA3CD5F67F2B35 /* Pods-VESDKExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VESDKExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-VESDKExampleTests/Pods-VESDKExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4E869D6542DFAEC4C2A90B94 /* Pods-VESDKExample-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VESDKExample-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-VESDKExample-tvOSTests/Pods-VESDKExample-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		5A314FE8228FC6540B507F72 /* Pods-VESDKExample-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VESDKExample-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-VESDKExample-tvOS/Pods-VESDKExample-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		73A4A018EE2500A091B28908 /* Pods-VESDKExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VESDKExample.debug.xcconfig"; path = "Target Support Files/Pods-VESDKExample/Pods-VESDKExample.debug.xcconfig"; sourceTree = "<group>"; };
+		894526CAD04082195293D3A9 /* libPods-VESDKExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VESDKExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2212E95FFCEBC741DB9BA8F /* Pods-VESDKExample-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VESDKExample-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-VESDKExample-tvOSTests/Pods-VESDKExample-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B6BD33F4A5A6F40B6F0B1A70 /* Pods-VESDKExample-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VESDKExample-tvOS.release.xcconfig"; path = "Target Support Files/Pods-VESDKExample-tvOS/Pods-VESDKExample-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		BA42C9A0ECB9D773561DC719 /* libPods-VESDKExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VESDKExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7459CCF5CA5DA2AD2D49AFE /* libPods-VESDKExampleTests.a in Frameworks */,
+				3FFF0F8B70A5B3362DB56222 /* libPods-VESDKExampleTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2183726C52EE38B37DEF680 /* libPods-VESDKExample.a in Frameworks */,
+				6C82EA3423896CAA60372C81 /* libPods-VESDKExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C65C20F62432573FAC53908 /* libPods-VESDKExample-tvOS.a in Frameworks */,
+				F5FC21ABF8649F2FBA972039 /* libPods-VESDKExample-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40B0EAACFCA7DF1672FCEC82 /* libPods-VESDKExample-tvOSTests.a in Frameworks */,
+				2D747A4678F0219FD558A454 /* libPods-VESDKExample-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,28 +141,12 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				86AFADC4C5AF4504BD962BE1 /* libPods-VESDKExample.a */,
-				8F11FF052729F29BEE94BACE /* libPods-VESDKExample-tvOS.a */,
-				EC74A69D50832A451A61C593 /* libPods-VESDKExample-tvOSTests.a */,
-				77597882223AECC99BA0C84D /* libPods-VESDKExampleTests.a */,
+				894526CAD04082195293D3A9 /* libPods-VESDKExample.a */,
+				1E80BF5B2C5BA3D009128A3D /* libPods-VESDKExample-tvOS.a */,
+				2B6263272D122150AB996D49 /* libPods-VESDKExample-tvOSTests.a */,
+				BA42C9A0ECB9D773561DC719 /* libPods-VESDKExampleTests.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		37742C1FC8FF10B61300C695 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				091ABE477CB4318C235A39A0 /* Pods-VESDKExample.debug.xcconfig */,
-				0B8EEAE24C981745CA649187 /* Pods-VESDKExample.release.xcconfig */,
-				9E3B22425CD63712AAFDBB45 /* Pods-VESDKExample-tvOS.debug.xcconfig */,
-				E0EE854E5A95AE8DF31254C2 /* Pods-VESDKExample-tvOS.release.xcconfig */,
-				A56EA41940DC3EFAE408F915 /* Pods-VESDKExample-tvOSTests.debug.xcconfig */,
-				140E3C715152C42C72C54524 /* Pods-VESDKExample-tvOSTests.release.xcconfig */,
-				0CDF5253EB4388E8A69A8BCB /* Pods-VESDKExampleTests.debug.xcconfig */,
-				195FDE1174F0020218A8D4C6 /* Pods-VESDKExampleTests.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -180,7 +164,7 @@
 				00E356EF1AD99517003FC87E /* VESDKExampleTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				37742C1FC8FF10B61300C695 /* Pods */,
+				B970DA31FF7C016F1B5A22A0 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -198,6 +182,22 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		B970DA31FF7C016F1B5A22A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73A4A018EE2500A091B28908 /* Pods-VESDKExample.debug.xcconfig */,
+				2766D0FCD1A52FA3B91CA9F7 /* Pods-VESDKExample.release.xcconfig */,
+				5A314FE8228FC6540B507F72 /* Pods-VESDKExample-tvOS.debug.xcconfig */,
+				B6BD33F4A5A6F40B6F0B1A70 /* Pods-VESDKExample-tvOS.release.xcconfig */,
+				A2212E95FFCEBC741DB9BA8F /* Pods-VESDKExample-tvOSTests.debug.xcconfig */,
+				4E869D6542DFAEC4C2A90B94 /* Pods-VESDKExample-tvOSTests.release.xcconfig */,
+				4532935D54FA3CD5F67F2B35 /* Pods-VESDKExampleTests.debug.xcconfig */,
+				1839F3206E8D30FBB0629F7C /* Pods-VESDKExampleTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -205,7 +205,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "VESDKExampleTests" */;
 			buildPhases = (
-				90C6A4DF0AB39A374485FDFB /* [CP] Check Pods Manifest.lock */,
+				883ECF6E753E51EEA5BE35A1 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
@@ -224,13 +224,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "VESDKExample" */;
 			buildPhases = (
-				22ACD4F144DFD29BBD97A015 /* [CP] Check Pods Manifest.lock */,
+				83ED8C6C1BD5F764D89FAAD8 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				9E0EA6B8402398EF79AFA17B /* [CP] Embed Pods Frameworks */,
+				8499773F7BD104E1602D211B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -245,7 +245,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "VESDKExample-tvOS" */;
 			buildPhases = (
-				42FB8F895617A710E4E909B6 /* [CP] Check Pods Manifest.lock */,
+				3403DCACE2D7D150CE97F352 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -265,7 +265,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "VESDKExample-tvOSTests" */;
 			buildPhases = (
-				9817073D82914AB185D92FF2 /* [CP] Check Pods Manifest.lock */,
+				EC06FE89D5204805B2464D4A /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -374,28 +374,6 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		22ACD4F144DFD29BBD97A015 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-VESDKExample-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -410,7 +388,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		42FB8F895617A710E4E909B6 /* [CP] Check Pods Manifest.lock */ = {
+		3403DCACE2D7D150CE97F352 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -432,7 +410,53 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		90C6A4DF0AB39A374485FDFB /* [CP] Check Pods Manifest.lock */ = {
+		83ED8C6C1BD5F764D89FAAD8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VESDKExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8499773F7BD104E1602D211B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VESDKExample/Pods-VESDKExample-frameworks.sh",
+				"${PODS_ROOT}/VideoEditorSDK/VideoEditorSDK/VideoEditorSDK.framework",
+				"${PODS_ROOT}/VideoEditorSDK/VideoEditorSDK/VideoEditorSDK.framework.dSYM",
+				"${PODS_ROOT}/imglyKit/PhotoEditorSDK/ImglyKit.framework",
+				"${PODS_ROOT}/imglyKit/PhotoEditorSDK/ImglyKit.framework.dSYM",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VideoEditorSDK.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/VideoEditorSDK.framework.dSYM",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImglyKit.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/ImglyKit.framework.dSYM",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VESDKExample/Pods-VESDKExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		883ECF6E753E51EEA5BE35A1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -454,7 +478,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9817073D82914AB185D92FF2 /* [CP] Check Pods Manifest.lock */ = {
+		EC06FE89D5204805B2464D4A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -474,30 +498,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9E0EA6B8402398EF79AFA17B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VESDKExample/Pods-VESDKExample-frameworks.sh",
-				"${PODS_ROOT}/VideoEditorSDK/VideoEditorSDK/ImglyKit.framework",
-				"${PODS_ROOT}/VideoEditorSDK/VideoEditorSDK/ImglyKit.framework.dSYM",
-				"${PODS_ROOT}/VideoEditorSDK/VideoEditorSDK/VideoEditorSDK.framework",
-				"${PODS_ROOT}/VideoEditorSDK/VideoEditorSDK/VideoEditorSDK.framework.dSYM",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImglyKit.framework",
-				"${DWARF_DSYM_FOLDER_PATH}/ImglyKit.framework.dSYM",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VideoEditorSDK.framework",
-				"${DWARF_DSYM_FOLDER_PATH}/VideoEditorSDK.framework.dSYM",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VESDKExample/Pods-VESDKExample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -605,7 +605,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0CDF5253EB4388E8A69A8BCB /* Pods-VESDKExampleTests.debug.xcconfig */;
+			baseConfigurationReference = 4532935D54FA3CD5F67F2B35 /* Pods-VESDKExampleTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -628,7 +628,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 195FDE1174F0020218A8D4C6 /* Pods-VESDKExampleTests.release.xcconfig */;
+			baseConfigurationReference = 1839F3206E8D30FBB0629F7C /* Pods-VESDKExampleTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -648,7 +648,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 091ABE477CB4318C235A39A0 /* Pods-VESDKExample.debug.xcconfig */;
+			baseConfigurationReference = 73A4A018EE2500A091B28908 /* Pods-VESDKExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -668,7 +668,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B8EEAE24C981745CA649187 /* Pods-VESDKExample.release.xcconfig */;
+			baseConfigurationReference = 2766D0FCD1A52FA3B91CA9F7 /* Pods-VESDKExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -687,7 +687,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9E3B22425CD63712AAFDBB45 /* Pods-VESDKExample-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 5A314FE8228FC6540B507F72 /* Pods-VESDKExample-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -715,7 +715,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E0EE854E5A95AE8DF31254C2 /* Pods-VESDKExample-tvOS.release.xcconfig */;
+			baseConfigurationReference = B6BD33F4A5A6F40B6F0B1A70 /* Pods-VESDKExample-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -743,7 +743,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A56EA41940DC3EFAE408F915 /* Pods-VESDKExample-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = A2212E95FFCEBC741DB9BA8F /* Pods-VESDKExample-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -770,7 +770,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 140E3C715152C42C72C54524 /* Pods-VESDKExample-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 4E869D6542DFAEC4C2A90B94 /* Pods-VESDKExample-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
