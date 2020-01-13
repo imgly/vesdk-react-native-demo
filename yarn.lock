@@ -5050,10 +5050,10 @@ react-is@^16.8.1, react-is@^16.8.4, react-is@^16.9.0:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.12.0.tgz#2cc0fe0fba742d97fd527c42a13bec4eeb06241c"
   integrity sha512-rPCkf/mWBtKc97aLL9/txD8DZdemK0vkA3JMLShjlJB3Pj3s+lpf1KaBzMfQrAmhMQB0n1cU/SUGgKKBCe837Q==
 
-react-native-videoeditorsdk@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/react-native-videoeditorsdk/-/react-native-videoeditorsdk-2.1.0.tgz#84568fa75228f95c3521b688fd47e66d0d6f33e5"
-  integrity sha512-xpvkf6Gbi3HnpKYRTKYkE9EGiQA56mToYtw0tim2D/wUQ5eEMVk48JiAjoIEAH+TU//KoAwmCJ+cMsf4EZ8G1g==
+react-native-videoeditorsdk@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/react-native-videoeditorsdk/-/react-native-videoeditorsdk-2.1.1.tgz#9358c5f45255e264dca054c430db47d3ec4f91ce"
+  integrity sha512-RhMcNPJ0s19pWUjPMDy+lep3XP7YS/XONTFntqvSpct5KmVHnH4ngi6XsLw7VsnxcPlkF+4uhszv0kkZ2zxmwQ==
 
 react-native@0.61.5:
   version "0.61.5"

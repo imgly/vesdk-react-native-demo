@@ -218,7 +218,7 @@ PODS:
     - React-cxxreact (= 0.61.5)
     - React-jsi (= 0.61.5)
     - ReactCommon/jscallinvoker (= 0.61.5)
-  - RNVideoEditorSDK (2.1.0):
+  - RNVideoEditorSDK (2.1.1):
     - React
     - React-RCTImage
     - VideoEditorSDK (~> 10.7)
@@ -344,7 +344,7 @@ SPEC CHECKSUMS:
   React-RCTText: 9ccc88273e9a3aacff5094d2175a605efa854dbe
   React-RCTVibration: a49a1f42bf8f5acf1c3e297097517c6b3af377ad
   ReactCommon: 198c7c8d3591f975e5431bec1b0b3b581aa1c5dd
-  RNVideoEditorSDK: 5c2edce40cdd79529d0073b1554ecc5ef6dc19d9
+  RNVideoEditorSDK: 759a8344e676d5a6ba2d8c3a86be421a34267dc0
   VideoEditorSDK: 7b964446dc9d503322a3ae6dbcb53f2d85846ae0
   Yoga: f2a7cd4280bfe2cca5a7aed98ba0eb3d1310f18b
 
