@@ -43,6 +43,8 @@ VESDK.unlockWithLicense(require('./vesdk_license'));
 
 The React Native module for VideoEditor SDK includes a rich set of most commonly used [configuration and customization options](https://github.com/imgly/vesdk-react-native/blob/master/configuration.ts) of VideoEditor SDK for iOS and Android. The native frameworks provide **fully customizable** video editors. Please refer to [our documentation](https://docs.videoeditorsdk.com?utm_campaign=Projects&utm_source=Github&utm_medium=VESDK&utm_content=React-Native-Demo) for more details.
 
+Native customization for iOS is demonstrated in the [`AppDelegate`](./ios/VESDKExample/AppDelegate.m#L20-L31) of the example application.
+
 ## License Terms
 
 Make sure you have a [commercial license](https://account.photoeditorsdk.com/pricing?product=vesdk&?utm_campaign=Projects&utm_source=Github&utm_medium=VESDK&utm_content=React-Native-Demo) for VideoEditor SDK before releasing your app.

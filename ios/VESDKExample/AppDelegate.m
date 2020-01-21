@@ -11,10 +11,25 @@
 #import <React/RCTBundleURLProvider.h>
 #import <React/RCTRootView.h>
 
+#import <RNVideoEditorSDK/RNVideoEditorSDK.h>
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+  // Configure and customize VideoEditor SDK beyond the configuration options exposed to JavaScript
+  RNVideoEditorSDK.configureWithBuilder = ^(PESDKConfigurationBuilder * _Nonnull builder) {
+    // Disable the color pipette for the text color selection tool
+    [builder configureTextColorToolController:^(PESDKTextColorToolControllerOptionsBuilder * _Nonnull options) {
+      NSMutableArray<PESDKColor *> *colors = [options.availableColors mutableCopy];
+      [colors removeObjectAtIndex:0]; // Remove first color item which is the color pipette
+      options.availableColors = colors;
+    }];
+  };
+  RNVideoEditorSDK.willPresentVideoEditViewController = ^(PESDKVideoEditViewController * _Nonnull videoEditViewController) {
+    NSLog(@"willPresent: %@", videoEditViewController);
+  };
+
   RCTBridge *bridge = [[RCTBridge alloc] initWithDelegate:self launchOptions:launchOptions];
   RCTRootView *rootView = [[RCTRootView alloc] initWithBridge:bridge
                                                    moduleName:@"VESDKExample"
