@@ -15,11 +15,11 @@
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2D747A4678F0219FD558A454 /* libPods-VESDKExample-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B6263272D122150AB996D49 /* libPods-VESDKExample-tvOSTests.a */; };
 		2DCD954D1E0B4F2C00145EB5 /* VESDKExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* VESDKExampleTests.m */; };
-		3FFF0F8B70A5B3362DB56222 /* libPods-VESDKExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA42C9A0ECB9D773561DC719 /* libPods-VESDKExampleTests.a */; };
-		6C82EA3423896CAA60372C81 /* libPods-VESDKExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 894526CAD04082195293D3A9 /* libPods-VESDKExample.a */; };
-		F5FC21ABF8649F2FBA972039 /* libPods-VESDKExample-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E80BF5B2C5BA3D009128A3D /* libPods-VESDKExample-tvOS.a */; };
+		3006BC952BADBCCF0233F91A /* libPods-VESDKExample-VESDKExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FA8A2BDFDA0ABF55677798E /* libPods-VESDKExample-VESDKExampleTests.a */; };
+		7A71F9C307D3E3896CEA9833 /* libPods-VESDKExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32A36D7244B347C18904223E /* libPods-VESDKExample.a */; };
+		CC8A7E27AA924E4D4D5C270C /* libPods-VESDKExample-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50769C4A4038087794DBE7E3 /* libPods-VESDKExample-tvOSTests.a */; };
+		CE810D39225290760D5C5A57 /* libPods-VESDKExample-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 02670EBC7AAF31A6639EF21B /* libPods-VESDKExample-tvOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +44,9 @@
 		00E356EE1AD99517003FC87E /* VESDKExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VESDKExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* VESDKExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VESDKExampleTests.m; sourceTree = "<group>"; };
+		02670EBC7AAF31A6639EF21B /* libPods-VESDKExample-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VESDKExample-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C848035A7CD16D7E1503444 /* Pods-VESDKExample-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VESDKExample-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-VESDKExample-tvOSTests/Pods-VESDKExample-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		10E82949325081B3AB43DF3C /* Pods-VESDKExample-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VESDKExample-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-VESDKExample-tvOSTests/Pods-VESDKExample-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* VESDKExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VESDKExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = VESDKExample/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = VESDKExample/AppDelegate.m; sourceTree = "<group>"; };
@@ -51,20 +54,17 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = VESDKExample/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = VESDKExample/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = VESDKExample/main.m; sourceTree = "<group>"; };
-		1839F3206E8D30FBB0629F7C /* Pods-VESDKExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VESDKExampleTests.release.xcconfig"; path = "Target Support Files/Pods-VESDKExampleTests/Pods-VESDKExampleTests.release.xcconfig"; sourceTree = "<group>"; };
-		1E80BF5B2C5BA3D009128A3D /* libPods-VESDKExample-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VESDKExample-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2766D0FCD1A52FA3B91CA9F7 /* Pods-VESDKExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VESDKExample.release.xcconfig"; path = "Target Support Files/Pods-VESDKExample/Pods-VESDKExample.release.xcconfig"; sourceTree = "<group>"; };
-		2B6263272D122150AB996D49 /* libPods-VESDKExample-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VESDKExample-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		194D9C4C479380836C847DD4 /* Pods-VESDKExample-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VESDKExample-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-VESDKExample-tvOS/Pods-VESDKExample-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* VESDKExample-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VESDKExample-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* VESDKExample-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VESDKExample-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4532935D54FA3CD5F67F2B35 /* Pods-VESDKExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VESDKExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-VESDKExampleTests/Pods-VESDKExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
-		4E869D6542DFAEC4C2A90B94 /* Pods-VESDKExample-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VESDKExample-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-VESDKExample-tvOSTests/Pods-VESDKExample-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		5A314FE8228FC6540B507F72 /* Pods-VESDKExample-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VESDKExample-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-VESDKExample-tvOS/Pods-VESDKExample-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		73A4A018EE2500A091B28908 /* Pods-VESDKExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VESDKExample.debug.xcconfig"; path = "Target Support Files/Pods-VESDKExample/Pods-VESDKExample.debug.xcconfig"; sourceTree = "<group>"; };
-		894526CAD04082195293D3A9 /* libPods-VESDKExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VESDKExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A2212E95FFCEBC741DB9BA8F /* Pods-VESDKExample-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VESDKExample-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-VESDKExample-tvOSTests/Pods-VESDKExample-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		B6BD33F4A5A6F40B6F0B1A70 /* Pods-VESDKExample-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VESDKExample-tvOS.release.xcconfig"; path = "Target Support Files/Pods-VESDKExample-tvOS/Pods-VESDKExample-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		BA42C9A0ECB9D773561DC719 /* libPods-VESDKExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VESDKExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32A36D7244B347C18904223E /* libPods-VESDKExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VESDKExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4141C9E176EAF79DE62D8032 /* Pods-VESDKExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VESDKExample.debug.xcconfig"; path = "Target Support Files/Pods-VESDKExample/Pods-VESDKExample.debug.xcconfig"; sourceTree = "<group>"; };
+		50769C4A4038087794DBE7E3 /* libPods-VESDKExample-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VESDKExample-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56FEA3D2B71B407920F2B8A4 /* Pods-VESDKExample-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VESDKExample-tvOS.release.xcconfig"; path = "Target Support Files/Pods-VESDKExample-tvOS/Pods-VESDKExample-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		8FA8A2BDFDA0ABF55677798E /* libPods-VESDKExample-VESDKExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VESDKExample-VESDKExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9F0809CDD9687E1CED904A0 /* Pods-VESDKExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VESDKExample.release.xcconfig"; path = "Target Support Files/Pods-VESDKExample/Pods-VESDKExample.release.xcconfig"; sourceTree = "<group>"; };
+		B3DCDC2F8C3FF940FAAAB72C /* Pods-VESDKExample-VESDKExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VESDKExample-VESDKExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-VESDKExample-VESDKExampleTests/Pods-VESDKExample-VESDKExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CCE31978FC5282EC0185314F /* Pods-VESDKExample-VESDKExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VESDKExample-VESDKExampleTests.release.xcconfig"; path = "Target Support Files/Pods-VESDKExample-VESDKExampleTests/Pods-VESDKExample-VESDKExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FFF0F8B70A5B3362DB56222 /* libPods-VESDKExampleTests.a in Frameworks */,
+				3006BC952BADBCCF0233F91A /* libPods-VESDKExample-VESDKExampleTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C82EA3423896CAA60372C81 /* libPods-VESDKExample.a in Frameworks */,
+				7A71F9C307D3E3896CEA9833 /* libPods-VESDKExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5FC21ABF8649F2FBA972039 /* libPods-VESDKExample-tvOS.a in Frameworks */,
+				CE810D39225290760D5C5A57 /* libPods-VESDKExample-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D747A4678F0219FD558A454 /* libPods-VESDKExample-tvOSTests.a in Frameworks */,
+				CC8A7E27AA924E4D4D5C270C /* libPods-VESDKExample-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,10 +141,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				894526CAD04082195293D3A9 /* libPods-VESDKExample.a */,
-				1E80BF5B2C5BA3D009128A3D /* libPods-VESDKExample-tvOS.a */,
-				2B6263272D122150AB996D49 /* libPods-VESDKExample-tvOSTests.a */,
-				BA42C9A0ECB9D773561DC719 /* libPods-VESDKExampleTests.a */,
+				32A36D7244B347C18904223E /* libPods-VESDKExample.a */,
+				8FA8A2BDFDA0ABF55677798E /* libPods-VESDKExample-VESDKExampleTests.a */,
+				02670EBC7AAF31A6639EF21B /* libPods-VESDKExample-tvOS.a */,
+				50769C4A4038087794DBE7E3 /* libPods-VESDKExample-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -164,7 +164,7 @@
 				00E356EF1AD99517003FC87E /* VESDKExampleTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				B970DA31FF7C016F1B5A22A0 /* Pods */,
+				A18C769F3FEEF8F83155C36A /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -182,17 +182,17 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B970DA31FF7C016F1B5A22A0 /* Pods */ = {
+		A18C769F3FEEF8F83155C36A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				73A4A018EE2500A091B28908 /* Pods-VESDKExample.debug.xcconfig */,
-				2766D0FCD1A52FA3B91CA9F7 /* Pods-VESDKExample.release.xcconfig */,
-				5A314FE8228FC6540B507F72 /* Pods-VESDKExample-tvOS.debug.xcconfig */,
-				B6BD33F4A5A6F40B6F0B1A70 /* Pods-VESDKExample-tvOS.release.xcconfig */,
-				A2212E95FFCEBC741DB9BA8F /* Pods-VESDKExample-tvOSTests.debug.xcconfig */,
-				4E869D6542DFAEC4C2A90B94 /* Pods-VESDKExample-tvOSTests.release.xcconfig */,
-				4532935D54FA3CD5F67F2B35 /* Pods-VESDKExampleTests.debug.xcconfig */,
-				1839F3206E8D30FBB0629F7C /* Pods-VESDKExampleTests.release.xcconfig */,
+				4141C9E176EAF79DE62D8032 /* Pods-VESDKExample.debug.xcconfig */,
+				A9F0809CDD9687E1CED904A0 /* Pods-VESDKExample.release.xcconfig */,
+				B3DCDC2F8C3FF940FAAAB72C /* Pods-VESDKExample-VESDKExampleTests.debug.xcconfig */,
+				CCE31978FC5282EC0185314F /* Pods-VESDKExample-VESDKExampleTests.release.xcconfig */,
+				194D9C4C479380836C847DD4 /* Pods-VESDKExample-tvOS.debug.xcconfig */,
+				56FEA3D2B71B407920F2B8A4 /* Pods-VESDKExample-tvOS.release.xcconfig */,
+				10E82949325081B3AB43DF3C /* Pods-VESDKExample-tvOSTests.debug.xcconfig */,
+				0C848035A7CD16D7E1503444 /* Pods-VESDKExample-tvOSTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -205,10 +205,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "VESDKExampleTests" */;
 			buildPhases = (
-				883ECF6E753E51EEA5BE35A1 /* [CP] Check Pods Manifest.lock */,
+				A57CE706046D2F71E993FFF2 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
+				D951A320EE3E315BA463D6E2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -224,13 +225,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "VESDKExample" */;
 			buildPhases = (
-				83ED8C6C1BD5F764D89FAAD8 /* [CP] Check Pods Manifest.lock */,
+				8A2B1D30E64F928B8477C36B /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				8499773F7BD104E1602D211B /* [CP] Embed Pods Frameworks */,
+				6F9E9070299AA6EC8501FB71 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -245,7 +246,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "VESDKExample-tvOS" */;
 			buildPhases = (
-				3403DCACE2D7D150CE97F352 /* [CP] Check Pods Manifest.lock */,
+				4D049E1179F2B652BE10C850 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -265,7 +266,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "VESDKExample-tvOSTests" */;
 			buildPhases = (
-				EC06FE89D5204805B2464D4A /* [CP] Check Pods Manifest.lock */,
+				71C64FED1FE6F127FE40B0D4 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -286,12 +287,14 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0940;
-				ORGANIZATIONNAME = Facebook;
+				LastUpgradeCheck = 1130;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -306,7 +309,7 @@
 			};
 			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "VESDKExample" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -388,7 +391,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		3403DCACE2D7D150CE97F352 /* [CP] Check Pods Manifest.lock */ = {
+		4D049E1179F2B652BE10C850 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -410,29 +413,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		83ED8C6C1BD5F764D89FAAD8 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-VESDKExample-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8499773F7BD104E1602D211B /* [CP] Embed Pods Frameworks */ = {
+		6F9E9070299AA6EC8501FB71 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -456,29 +437,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VESDKExample/Pods-VESDKExample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		883ECF6E753E51EEA5BE35A1 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-VESDKExampleTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EC06FE89D5204805B2464D4A /* [CP] Check Pods Manifest.lock */ = {
+		71C64FED1FE6F127FE40B0D4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -498,6 +457,74 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A2B1D30E64F928B8477C36B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VESDKExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A57CE706046D2F71E993FFF2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VESDKExample-VESDKExampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D951A320EE3E315BA463D6E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VESDKExample-VESDKExampleTests/Pods-VESDKExample-VESDKExampleTests-frameworks.sh",
+				"${PODS_ROOT}/VideoEditorSDK/VideoEditorSDK/VideoEditorSDK.framework",
+				"${PODS_ROOT}/VideoEditorSDK/VideoEditorSDK/VideoEditorSDK.framework.dSYM",
+				"${PODS_ROOT}/imglyKit/PhotoEditorSDK/ImglyKit.framework",
+				"${PODS_ROOT}/imglyKit/PhotoEditorSDK/ImglyKit.framework.dSYM",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VideoEditorSDK.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/VideoEditorSDK.framework.dSYM",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImglyKit.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/ImglyKit.framework.dSYM",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VESDKExample-VESDKExampleTests/Pods-VESDKExample-VESDKExampleTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -605,7 +632,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4532935D54FA3CD5F67F2B35 /* Pods-VESDKExampleTests.debug.xcconfig */;
+			baseConfigurationReference = B3DCDC2F8C3FF940FAAAB72C /* Pods-VESDKExample-VESDKExampleTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -628,7 +655,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1839F3206E8D30FBB0629F7C /* Pods-VESDKExampleTests.release.xcconfig */;
+			baseConfigurationReference = CCE31978FC5282EC0185314F /* Pods-VESDKExample-VESDKExampleTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -648,11 +675,16 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 73A4A018EE2500A091B28908 /* Pods-VESDKExample.debug.xcconfig */;
+			baseConfigurationReference = 4141C9E176EAF79DE62D8032 /* Pods-VESDKExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEAD_CODE_STRIPPING = NO;
+				ENABLE_BITCODE = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"FB_SONARKIT_ENABLED=1",
+				);
 				INFOPLIST_FILE = VESDKExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -662,15 +694,18 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = VESDKExample;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2766D0FCD1A52FA3B91CA9F7 /* Pods-VESDKExample.release.xcconfig */;
+			baseConfigurationReference = A9F0809CDD9687E1CED904A0 /* Pods-VESDKExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = VESDKExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -681,13 +716,14 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = VESDKExample;
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5A314FE8228FC6540B507F72 /* Pods-VESDKExample-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 194D9C4C479380836C847DD4 /* Pods-VESDKExample-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -705,7 +741,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.VESDKExample-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.VESDKExample-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -715,7 +751,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B6BD33F4A5A6F40B6F0B1A70 /* Pods-VESDKExample-tvOS.release.xcconfig */;
+			baseConfigurationReference = 56FEA3D2B71B407920F2B8A4 /* Pods-VESDKExample-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -733,7 +769,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.VESDKExample-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.VESDKExample-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -743,7 +779,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A2212E95FFCEBC741DB9BA8F /* Pods-VESDKExample-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 10E82949325081B3AB43DF3C /* Pods-VESDKExample-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -760,7 +796,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.VESDKExample-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.VESDKExample-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VESDKExample-tvOS.app/VESDKExample-tvOS";
@@ -770,7 +806,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E869D6542DFAEC4C2A90B94 /* Pods-VESDKExample-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 0C848035A7CD16D7E1503444 /* Pods-VESDKExample-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -787,7 +823,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.VESDKExample-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.VESDKExample-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VESDKExample-tvOS.app/VESDKExample-tvOS";
@@ -799,6 +835,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -842,6 +879,12 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -852,6 +895,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -888,6 +932,12 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "/usr/lib/swift $(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
