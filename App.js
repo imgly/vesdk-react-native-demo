@@ -27,7 +27,12 @@ import {
 
 import {VESDK, Configuration, TintMode} from 'react-native-videoeditorsdk';
 
-// Uncomment the following line to unlock VideoEditor SDK with a license file
+/**
+ * Uncomment the following single line of code to unlock VideoEditor SDK automatically
+ * for both platforms. Every platform requires a separate license file which must be
+ * named `vesdk_license.ios.json` for the iOS license and `vesdk_license.android.json`
+ * for the Android license file.
+ */
 // VESDK.unlockWithLicense(require('./vesdk_license'));
 
 const App: () => React$Node = () => {
@@ -61,7 +66,8 @@ const App: () => React$Node = () => {
               },
             ],
           },
-          // Use existing sticker category
+          // Reorder and use existing sticker categories
+          {identifier: 'imgly_sticker_category_animated'},
           {identifier: 'imgly_sticker_category_emoticons'},
           // Modify existing sticker category
           {

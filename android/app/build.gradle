@@ -28,6 +28,10 @@ imglyConfig {
         include 'assets:overlay-basic'
         include 'assets:sticker-shapes'
         include 'assets:sticker-emoticons'
+        include 'assets:sticker-animated'
+
+        include 'backend:sticker-animated'
+        include 'backend:sticker-smart'
     }
 }
 
