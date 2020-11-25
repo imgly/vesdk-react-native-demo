@@ -293,7 +293,7 @@ PODS:
     - React-cxxreact (= 0.62.2)
     - React-jsi (= 0.62.2)
     - ReactCommon/callinvoker (= 0.62.2)
-  - RNVideoEditorSDK (2.5.0):
+  - RNVideoEditorSDK (2.6.0):
     - React
     - React-RCTImage
     - VideoEditorSDK (~> 10.18)
@@ -461,11 +461,11 @@ SPEC CHECKSUMS:
   React-RCTText: fae545b10cfdb3d247c36c56f61a94cfd6dba41d
   React-RCTVibration: 4356114dbcba4ce66991096e51a66e61eda51256
   ReactCommon: ed4e11d27609d571e7eee8b65548efc191116eb3
-  RNVideoEditorSDK: 271682157e429f1df5bf3629d6bcb1143fe14089
+  RNVideoEditorSDK: 7004e4c557d677d5d5ea43fa7fcc0d14f18d0372
   VideoEditorSDK: 1e60c37eb40273e5a7481c732b479866a5e9d3a3
   Yoga: 3ebccbdd559724312790e7742142d062476b698e
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
 
 PODFILE CHECKSUM: 84e0a1a59583bff732c64669065c6cf4138c8d22
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.10.0
