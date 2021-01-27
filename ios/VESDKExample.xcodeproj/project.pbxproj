@@ -420,8 +420,8 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-VESDKExample/Pods-VESDKExample-frameworks.sh",
-				"${PODS_ROOT}/VideoEditorSDK/VideoEditorSDK/VideoEditorSDK.framework",
-				"${PODS_ROOT}/imglyKit/PhotoEditorSDK/ImglyKit.framework",
+				"${PODS_ROOT}/VideoEditorSDK/VideoEditorSDK.framework",
+				"${PODS_ROOT}/imglyKit/ImglyKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -506,8 +506,8 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-VESDKExample-VESDKExampleTests/Pods-VESDKExample-VESDKExampleTests-frameworks.sh",
-				"${PODS_ROOT}/VideoEditorSDK/VideoEditorSDK/VideoEditorSDK.framework",
-				"${PODS_ROOT}/imglyKit/PhotoEditorSDK/ImglyKit.framework",
+				"${PODS_ROOT}/VideoEditorSDK/VideoEditorSDK.framework",
+				"${PODS_ROOT}/imglyKit/ImglyKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
