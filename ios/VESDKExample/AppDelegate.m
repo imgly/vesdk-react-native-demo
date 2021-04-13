@@ -1,4 +1,5 @@
 #import "AppDelegate.h"
+#import "VESDKExample-Swift.h"
 
 #import <React/RCTBridge.h>
 #import <React/RCTBundleURLProvider.h>
@@ -32,6 +33,8 @@ static void InitializeFlipper(UIApplication *application) {
 #if DEBUG
   InitializeFlipper(application);
 #endif
+  // Apply advanced customizations that require replacing built-in classes with custom subclasses.
+  [[CustomizationController shared] apply];
 
   // Configure and customize VideoEditor SDK beyond the configuration options exposed to JavaScript
   RNVideoEditorSDK.configureWithBuilder = ^(PESDKConfigurationBuilder * _Nonnull builder) {

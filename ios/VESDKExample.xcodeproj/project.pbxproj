@@ -18,6 +18,7 @@
 		2DCD954D1E0B4F2C00145EB5 /* VESDKExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* VESDKExampleTests.m */; };
 		3006BC952BADBCCF0233F91A /* libPods-VESDKExample-VESDKExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FA8A2BDFDA0ABF55677798E /* libPods-VESDKExample-VESDKExampleTests.a */; };
 		7A71F9C307D3E3896CEA9833 /* libPods-VESDKExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32A36D7244B347C18904223E /* libPods-VESDKExample.a */; };
+		9E2175DB26257F55000B52C8 /* CustomizationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2175DA26257F55000B52C8 /* CustomizationController.swift */; };
 		CC8A7E27AA924E4D4D5C270C /* libPods-VESDKExample-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50769C4A4038087794DBE7E3 /* libPods-VESDKExample-tvOSTests.a */; };
 		CE810D39225290760D5C5A57 /* libPods-VESDKExample-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 02670EBC7AAF31A6639EF21B /* libPods-VESDKExample-tvOS.a */; };
 /* End PBXBuildFile section */
@@ -62,6 +63,8 @@
 		50769C4A4038087794DBE7E3 /* libPods-VESDKExample-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VESDKExample-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		56FEA3D2B71B407920F2B8A4 /* Pods-VESDKExample-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VESDKExample-tvOS.release.xcconfig"; path = "Target Support Files/Pods-VESDKExample-tvOS/Pods-VESDKExample-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		8FA8A2BDFDA0ABF55677798E /* libPods-VESDKExample-VESDKExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VESDKExample-VESDKExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E2175D926257F55000B52C8 /* VESDKExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VESDKExample-Bridging-Header.h"; sourceTree = "<group>"; };
+		9E2175DA26257F55000B52C8 /* CustomizationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CustomizationController.swift; path = VESDKExample/CustomizationController.swift; sourceTree = "<group>"; };
 		A9F0809CDD9687E1CED904A0 /* Pods-VESDKExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VESDKExample.release.xcconfig"; path = "Target Support Files/Pods-VESDKExample/Pods-VESDKExample.release.xcconfig"; sourceTree = "<group>"; };
 		B3DCDC2F8C3FF940FAAAB72C /* Pods-VESDKExample-VESDKExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VESDKExample-VESDKExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-VESDKExample-VESDKExampleTests/Pods-VESDKExample-VESDKExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CCE31978FC5282EC0185314F /* Pods-VESDKExample-VESDKExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VESDKExample-VESDKExampleTests.release.xcconfig"; path = "Target Support Files/Pods-VESDKExample-VESDKExampleTests/Pods-VESDKExample-VESDKExampleTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -132,6 +135,8 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				9E2175DA26257F55000B52C8 /* CustomizationController.swift */,
+				9E2175D926257F55000B52C8 /* VESDKExample-Bridging-Header.h */,
 			);
 			name = VESDKExample;
 			sourceTree = "<group>";
@@ -194,7 +199,6 @@
 				10E82949325081B3AB43DF3C /* Pods-VESDKExample-tvOSTests.debug.xcconfig */,
 				0C848035A7CD16D7E1503444 /* Pods-VESDKExample-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -294,7 +298,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						LastSwiftMigration = 1120;
+						LastSwiftMigration = 1240;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -576,6 +580,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E2175DB26257F55000B52C8 /* CustomizationController.swift in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
@@ -630,6 +635,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B3DCDC2F8C3FF940FAAAB72C /* Pods-VESDKExample-VESDKExampleTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -653,6 +659,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CCE31978FC5282EC0185314F /* Pods-VESDKExample-VESDKExampleTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = VESDKExampleTests/Info.plist;
@@ -690,6 +697,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = VESDKExample;
+				SWIFT_OBJC_BRIDGING_HEADER = "VESDKExample-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -712,6 +720,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = VESDKExample;
+				SWIFT_OBJC_BRIDGING_HEADER = "VESDKExample-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
