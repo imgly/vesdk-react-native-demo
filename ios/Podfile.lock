@@ -67,7 +67,7 @@ PODS:
     - DoubleConversion
     - glog
   - glog (0.3.5)
-  - imglyKit (10.22.0)
+  - imglyKit (10.23.1)
   - OpenSSL-Universal (1.1.180)
   - RCTRequired (0.62.2)
   - RCTTypeSafety (0.62.2):
@@ -291,12 +291,12 @@ PODS:
     - React-cxxreact (= 0.62.2)
     - React-jsi (= 0.62.2)
     - ReactCommon/callinvoker (= 0.62.2)
-  - RNVideoEditorSDK (2.7.0):
+  - RNVideoEditorSDK (2.8.0):
     - React
     - React-RCTImage
-    - VideoEditorSDK (~> 10.22)
-  - VideoEditorSDK (10.22.0):
-    - imglyKit (= 10.22.0)
+    - VideoEditorSDK (~> 10.23)
+  - VideoEditorSDK (10.23.1):
+    - imglyKit (= 10.23.1)
   - Yoga (1.14.0)
   - YogaKit (1.18.1):
     - Yoga (~> 1.14)
@@ -438,7 +438,7 @@ SPEC CHECKSUMS:
   FlipperKit: 6dc9b8f4ef60d9e5ded7f0264db299c91f18832e
   Folly: 30e7936e1c45c08d884aa59369ed951a8e68cf51
   glog: 1f3da668190260b06b429bb211bfbee5cd790c28
-  imglyKit: 9c97eabba2d42a6bd19108e42a48a4138d75e31a
+  imglyKit: 4ffe931831f12ccab5d41c8586687d8e04dd97ad
   OpenSSL-Universal: 1aa4f6a6ee7256b83db99ec1ccdaa80d10f9af9b
   RCTRequired: cec6a34b3ac8a9915c37e7e4ad3aa74726ce4035
   RCTTypeSafety: 93006131180074cffa227a1075802c89a49dd4ce
@@ -459,8 +459,8 @@ SPEC CHECKSUMS:
   React-RCTText: fae545b10cfdb3d247c36c56f61a94cfd6dba41d
   React-RCTVibration: 4356114dbcba4ce66991096e51a66e61eda51256
   ReactCommon: ed4e11d27609d571e7eee8b65548efc191116eb3
-  RNVideoEditorSDK: 02a5a9f8dc21ba69b26e39db50f511f72699dd0b
-  VideoEditorSDK: 54574fecac368928e7cedd5fbd3e31b53b57dc72
+  RNVideoEditorSDK: ec512a9244f892878aa9aa5b9a6705888f43f992
+  VideoEditorSDK: 251e32a43e98bbd6b4113551c74e9b607515f3c0
   Yoga: 3ebccbdd559724312790e7742142d062476b698e
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
 
