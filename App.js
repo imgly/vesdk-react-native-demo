@@ -120,12 +120,10 @@ const App: () => Node = () => {
             items: [
               {
                 identifier: "example_video_custom_dj",
-                name: "DJ",
                 videoURI: require('./assets/DJ.mp4')
               },
               {
                 identifier: "example_video_custom_notes",
-                name: "Notes",
                 videoURI: require('./assets/Notes.mp4')
               },
             ]
@@ -142,13 +140,15 @@ const App: () => Node = () => {
             name: "Custom",
             items: [
               {
+                // Use metadata to display title and artist
                 identifier: "example_audio_custom_elsewhere",
-                name: "Elsewhere",
                 audioURI: require('./assets/Elsewhere.mp3')
               },
               {
+                // Override metadata to display title and artist
                 identifier: "example_audio_custom_danceharder",
-                name: "Dance Harder",
+                title: "Dance Harder",
+                artist: "Three Chain Links",
                 audioURI: require('./assets/DanceHarder.mp3')
               }
             ]
