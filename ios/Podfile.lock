@@ -72,7 +72,7 @@ PODS:
     - FlipperKit/FlipperKitNetworkPlugin
   - fmt (6.2.1)
   - glog (0.3.5)
-  - imglyKit (10.29.0)
+  - imglyKit (10.30.0)
   - libevent (2.1.12)
   - OpenSSL-Universal (1.1.180)
   - RCT-Folly (2021.06.28.00-v2):
@@ -338,12 +338,12 @@ PODS:
     - React-jsi (= 0.66.3)
     - React-logger (= 0.66.3)
     - React-perflogger (= 0.66.3)
-  - RNVideoEditorSDK (2.12.0):
+  - RNVideoEditorSDK (2.13.1):
     - React
     - React-RCTImage
     - VideoEditorSDK (~> 10.29)
-  - VideoEditorSDK (10.29.0):
-    - imglyKit (= 10.29.0)
+  - VideoEditorSDK (10.30.0):
+    - imglyKit (= 10.30.0)
   - Yoga (1.14.0)
   - YogaKit (1.18.1):
     - Yoga (~> 1.14)
@@ -504,7 +504,7 @@ SPEC CHECKSUMS:
   FlipperKit: d8d346844eca5d9120c17d441a2f38596e8ed2b9
   fmt: ff9d55029c625d3757ed641535fd4a75fedc7ce9
   glog: 5337263514dd6f09803962437687240c5dc39aa4
-  imglyKit: 26b2761be3d790354b9a5ffb0c066b320318027c
+  imglyKit: d5f3091f9980b97728c05b4144513b139313d8d7
   libevent: 4049cae6c81cdb3654a443be001fb9bdceff7913
   OpenSSL-Universal: 1aa4f6a6ee7256b83db99ec1ccdaa80d10f9af9b
   RCT-Folly: a21c126816d8025b547704b777a2ba552f3d9fa9
@@ -531,8 +531,8 @@ SPEC CHECKSUMS:
   React-RCTVibration: 50cfe7049167cfc7e83ac5542c6fff0c76791a9b
   React-runtimeexecutor: bbbdb3d8fcf327c6e2249ee71b6ef1764b7dc266
   ReactCommon: 9bac022ab71596f2b0fde1268272543184c63971
-  RNVideoEditorSDK: 9c2192037fe78b4d6f865f3f517260e27aebdf5a
-  VideoEditorSDK: 3fab34fb9679084c232f5d2f19415a24115df32c
+  RNVideoEditorSDK: 98a74195e4ada38114bc544442834ccd1a176983
+  VideoEditorSDK: beec18f11c5564c6910d05eea945126e01e6f389
   Yoga: 32a18c0e845e185f4a2a66ec76e1fd1f958f22fa
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
 
